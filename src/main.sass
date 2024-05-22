@@ -1,0 +1,41 @@
+// Reset de estilos
+*
+  margin: 0
+  padding: 0
+  box-sizing: border-box
+
+// Estilos gerais
+body
+  font-family: sans-serif
+  background-color: #ffffff  
+
+.container
+  margin: 16px 
+  display: flex
+  flex-wrap: wrap
+  justify-content: center
+  padding: 20px
+  border: 2px black solid
+
+  .produto
+    width: 300px
+    margin: 10px
+    border: 4px solid #000000
+    border-radius: 5px
+    background-color: #770
+    text-align: center
+
+    &-imagem 
+        width: 100%
+        height: 200px
+        object-fit: cover
+
+    &-nome 
+      text-align: center
+      font-size: 1rem 
+      color: white  
+    
+    &-descricao
+      color: #333 
+      font-weight: bold
+    
